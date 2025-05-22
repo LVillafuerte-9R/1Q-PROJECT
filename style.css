@@ -1,0 +1,135 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      background-image: url('https://i.pinimg.com/736x/36/f8/91/36f8910327ec59957db95ac6c38ce2ae.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333;
+    }
+
+    .header {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .topnav {
+      background-color: skyblue;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .topnav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      transition: 0.3s;
+    }
+
+    .topnav a:hover {
+      background-color: #fff;
+      color: skyblue;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .column {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .column img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .column h2 {
+      color: #5f9ea0;
+      margin: 10px 0;
+    }
+
+    .column p {
+      font-size: 14px;
+      margin: 10px 0 20px;
+    }
+
+    .column button {
+      background-color: #5f9ea0;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .footer {
+      background-color: aliceblue;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      color: darkblue;
+      margin-top: 40px;
+    }
+
+    .form {
+      background-color: skyblue;
+      color: white;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form input[type="text"],
+    .form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .form input[type="submit"] {
+      background-color: darkblue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .form input[type="submit"]:hover {
+      background-color: navy;
+    }
